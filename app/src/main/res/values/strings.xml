@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Pixemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="download">Download</string>
+    <string-array name="orientation">
+        <item>orientation</item>
+        <item>horizontal</item>
+        <item>vertical</item>
+        <item>all</item>
+    </string-array>
+
+    <string-array name="Image_Type">
+        <item>Type</item>
+        <item>photo</item>
+        <item>illustration</item>
+        <item>vector</item>
+        <item>all</item>
+    </string-array>
+
+    <string-array name="Colors">
+        <item>colors</item>
+        <item>grayscale</item>
+        <item>transparent</item>
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>turquoise</item>
+        <item>blue</item>
+        <item>lilac</item>
+        <item>pink</item>
+        <item>white</item>
+        <item>gray</item>
+        <item>black</item>
+        <item>brown</item>
+    </string-array>
+
+    <string-array name="Order">
+        <item>order</item>
+        <item>popular</item>
+        <item>latest</item>
+        <item>default</item>
+    </string-array>
+
+    <string-array name="NewsCategories">
+        <item>breaking-news</item>
+        <item>world</item>
+        <item>nation</item>
+        <item>business</item>
+        <item>technology</item>
+        <item>entertainment</item>
+        <item>sports</item>
+        <item>science</item>
+        <item>health</item>
+    </string-array>
+
+
+</resources>

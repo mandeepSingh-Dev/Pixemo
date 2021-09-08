@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diegogradient"
+    android:orientation="vertical"
+    tools:context=".SelectMainActvity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <!-- android:layout_marginLeft="94dp"
+        android:layout_marginTop="30dp">-->
+      <!--  <ImageButton
+            android:id="@+id/imagebutton1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:paddingTop="5dp"
+              android:paddingHorizontal="5dp"
+            android:src="@drawable/memoneww" />
+            -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="300dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp">
+            <!-- add a Image image.png in your Drawable folder -->
+
+            <ImageView
+
+                android:id="@+id/imagebutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+           android:scaleType="center"
+                android:src="@drawable/memothreeee" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/hometown"
+            android:text="Memo"
+            android:textColor="#FBFBFB"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="200dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp">
+            <ImageView
+            android:id="@+id/imagebutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:soundEffectsEnabled="true"
+            android:src="@drawable/wallii" />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/hometown"
+            android:text="Wallpapers"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+</LinearLayout>

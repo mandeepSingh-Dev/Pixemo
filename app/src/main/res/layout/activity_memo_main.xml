@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mycolor7"
+    android:orientation="vertical"
+    tools:context=".MEMOApp.MemoMainActivity">
+
+    <ListView
+        android:id="@+id/MEMOlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:listSelector="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/PressTEXTVIEW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ACA59F"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

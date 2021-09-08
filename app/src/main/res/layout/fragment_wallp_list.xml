@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categries.WallpListFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/orientationspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:entries="@array/orientation"
+            android:layout_weight="1"
+            android:spinnerMode="dialog" />
+        <Spinner
+            android:id="@+id/Orderspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:entries="@array/Order"
+            android:spinnerMode="dialog"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/Colorsspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:entries="@array/Colors"
+            android:spinnerMode="dialog"
+            android:layout_weight="1" />
+        <Spinner
+            android:id="@+id/Image_Typespinner"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:entries="@array/Image_Type"
+            android:spinnerMode="dialog"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/FilterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter"
+        android:textColor="#390C70"
+        android:textAllCaps="false"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listviewforANYCATegory1"/>
+
+
+
+
+
+</LinearLayout>

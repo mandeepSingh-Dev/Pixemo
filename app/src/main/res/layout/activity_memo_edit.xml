@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MEMOApp.MemoEditActivity"
+    android:orientation="vertical"
+    android:id="@+id/EditLayout"
+    >
+
+    <EditText
+        android:id="@+id/titleedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D47A1"
+        android:gravity="center"
+        android:hint="Title"
+        android:shadowColor="#FFFFFF"
+        android:textColor="#FFFBFB"
+        android:textColorHint="#8F8E8E"
+        android:textSize="30sp"></EditText>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+>
+
+       <EditText
+           android:id="@+id/NotesEditttext"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:hint="Notes"
+           android:textColorHint="#8F8E8E"
+           android:textSize="20sp"
+           ></EditText>
+
+   </ScrollView>
+</LinearLayout>
