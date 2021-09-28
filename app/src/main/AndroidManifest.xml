@@ -10,10 +10,8 @@
 
     <application
         android:allowBackup="true"
-        android:hardwareAccelerated="false"
         android:icon="@drawable/wallpaper"
         android:label="@string/app_name"
-        android:largeHeap="true"
         android:roundIcon="@drawable/wallpaper"
         android:supportsRtl="true"
         android:theme="@style/Theme.Unsplash">
